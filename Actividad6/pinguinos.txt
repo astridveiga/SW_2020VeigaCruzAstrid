@@ -1,0 +1,35 @@
+<--------------------------REGEX------------------------------------>
+6.Pingüinos
+
+Con una regex, busca a todos los números telefónicos que sean de la Antártida (lada=672), y estén al nombre de:
+-Rico
+-Cabo
+-Kowalski
+-Skipper
+CUIDADO: Hay imitadores de los pingüinos, sus números telefónicos reales tienen exactamente 10 dígitos.
+
+^\[\+(672) \d{10}\] (Skipper|Kowalski|Cabo|Rico)$
+
+Match 1
+Full match	245-267	[+672 7473935113] Rico
+Group 1.	247-250	672
+Group 2.	263-267	Rico
+
+Match 2
+Full match	4019-4044	[+672 5345009331] Skipper
+Group 1.	4021-4024	672
+Group 2.	4037-4044	Skipper
+
+Match 3
+Full match	8002-8028	[+672 8766764155] Kowalski
+Group 1.	8004-8007	672
+Group 2.	8020-8028	Kowalski
+
+Match 4
+Full match	10566-10588	[+672 5085533408] Cabo
+Group 1.	10568-10571	672
+Group 2.	10584-10588	Cabo
+
+
+
+

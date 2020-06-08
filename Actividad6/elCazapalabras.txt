@@ -1,0 +1,8 @@
+<---------------------------REGEX------------------------------------>
+6.2. El cazapalabras
+
+Con una regex, busca la palabra “regex” (la letra r puede estar en mayúsculas)
+en un texto. Puede estar al principio del texto, al final, antes de un punto,
+antes de una coma, entre corchetes, entre paréntesis y entre comillas.
+
+(?<="|'|\[|\(|\s|^)[Rr]egex(?="|'|\]|\)|\s|,|\.|$)
