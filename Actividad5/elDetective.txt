@@ -1,0 +1,98 @@
+<-------------------------------------------------REGEX----------------------------------------------------->
+Con una regex, busca todos los casos válidos de drogas que sucedieron a partir del 2005. 
+Para que un registro de caso sea válido, su fecha debe tener el formato dd/mm/aaaa y ser una fecha existente. 
+Considera que todos los meses tienen 31 días.
+
+
+(0[1-9]|[12][0-9]|3[01])\/(0[1-9]|1[012])\/2005
+
+
+Match 1
+Full match	56-66	01/03/2005
+Group 1.	56-58	01
+Group 2.	59-61	03 
+
+Match 2
+Full match	1140-1150	16/03/2005
+Group 1.	1140-1142	16
+Group 2.	1143-1145	03
+
+Match 3
+Full match	2181-2191	17/10/2005
+Group 1.	2181-2183	17
+Group 2.	2184-2186	10
+
+Match 4
+Full match	2348-2358	23/06/2005
+Group 1.	2348-2350	23
+Group 2.	2351-2353	06
+
+Match 5
+Full match	2568-2578	27/12/2005
+Group 1.	2568-2570	27
+Group 2.	2571-2573	12
+
+Match 6
+Full match	2999-3009	08/03/2005
+Group 1.	2999-3001	08
+Group 2.	3002-3004	03
+
+Match 7
+Full match	3971-3981	04/03/2005
+Group 1.	3971-3973	04
+Group 2.	3974-3976	03
+
+Match 8
+Full match	4615-4625	17/07/2005
+Group 1.	4615-4617	17
+Group 2.	4618-4620	07
+
+Match 9
+Full match	5606-5616	30/07/2005
+Group 1.	5606-5608	30
+Group 2.	5609-5611	07
+
+Match 10
+Full match	7293-7303	20/06/2005
+Group 1.	7293-7295	20
+Group 2.	7296-7298	06
+
+Match 11
+Full match	8623-8633	06/12/2005
+Group 1.	8623-8625	06
+Group 2.	8626-8628	12
+
+Match 12
+Full match	9485-9495	12/02/2005
+Group 1.	9485-9487	12
+Group 2.	9488-9490	02
+
+Match 13
+Full match	10649-10659	25/09/2005
+Group 1.	10649-10651	25
+Group 2.	10652-10654	09
+
+Match 14
+Full match	11251-11261	11/10/2005
+Group 1.	11251-11253	11
+Group 2.	11254-11256	10
+
+Match 15
+Full match	11710-11720	14/12/2005
+Group 1.	11710-11712	14
+Group 2.	11713-11715	12
+
+Match 16
+Full match	12396-12406	16/04/2005
+Group 1.	12396-12398	16
+Group 2.	12399-12401	04
+
+Match 17
+Full match	12433-12443	07/03/2005
+Group 1.	12433-12435	07
+Group 2.	12436-12438	03
+
+Match 18
+Full match	14528-14538	31/01/2005
+Group 1.	14528-14530	31
+Group 2.	14531-14533	01
